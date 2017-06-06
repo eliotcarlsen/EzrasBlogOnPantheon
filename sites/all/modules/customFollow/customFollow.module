@@ -1,0 +1,15 @@
+<?php
+function customFollow_follow_networks_alter(&$networks, $uid = 0) {
+    $networks[$uid]['github'] = array(
+      'title' => t('Github'),
+      'domain' => 'github.com',
+    );
+    $networks[$uid]['blog'] = array(
+      'title' => t('Personal Blog'),
+      'domain' => 'ezracarlsen.com',
+    );
+    // print '<pre>';
+    // print_r($networks);
+    // print_r($uid);
+    // print '</pre>';
+}

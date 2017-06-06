@@ -1,0 +1,5 @@
+name = Custom Follow
+description = Custom Follow
+package = Custom Follow
+core = 7.x
+files[] = customFollow.module
