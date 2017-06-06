@@ -244,21 +244,7 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'eliotsdatabase',
-      'username' => 'eliot',
-      'password' => 'everest1',
-      'host' => 'localhost',
-      'port' => '8889',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+$databases = array();
 
 /**
  * Access control for update.php script.
@@ -290,7 +276,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'YJJIA8BYa-HRt6FqueJTvOE-R6AqMfDorklxbFem-uo';
+$drupal_hash_salt = '';
 
 /**
  * Base URL (optional).
