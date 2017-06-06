@@ -1,0 +1,5 @@
+name = Custom Contact
+description = Custom Contact
+package = Custom Contact
+core = 7.x
+files[] = customContactModule.module
