@@ -1,0 +1,5 @@
+name = Custom Article
+description = Custom Article
+package = Custom Article
+core = 7.x
+files[] = customArticle.module

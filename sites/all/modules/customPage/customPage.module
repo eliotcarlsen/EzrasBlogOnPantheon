@@ -1,0 +1,12 @@
+<?php
+function customPage_form_alter(&$form, &$form_state, $form_id) {
+    if ($form_id == 'page_node_form'){
+        $form['additional_settings']['#access'] = 0;
+        $form['comment_settings']['comment']['#default_value'] = 1;
+        // print '<pre>';
+        // print_r($form);
+        // print_r($form_state);
+        // print_r($form_id);
+        // print '</pre>';
+    }
+}

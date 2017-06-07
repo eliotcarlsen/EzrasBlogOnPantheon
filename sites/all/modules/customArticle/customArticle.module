@@ -1,0 +1,12 @@
+<?php
+function customArticle_form_alter(&$form, &$form_state, $form_id) {
+    if ($form_id == 'article_node_form'){
+        $form['comment_settings']['#access'] = 0;
+        $form['additional_settings']['#access'] = 0;
+        // print '<pre>';
+        // print_r($form);
+        // print_r($form_state);
+        // print_r($form_id);
+        // print '</pre>';
+    }
+}

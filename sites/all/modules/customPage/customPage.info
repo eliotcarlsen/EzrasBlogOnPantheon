@@ -1,0 +1,5 @@
+name = Custom Page
+description = Custom Page
+package = Custom Page
+core = 7.x
+files[] = customPage.module
